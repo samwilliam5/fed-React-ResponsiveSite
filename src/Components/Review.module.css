@@ -1,0 +1,36 @@
+.reviewContainer{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+text-align: center; 
+}
+.reviewContainer p{
+    color: #666;
+    padding: 25px 0;
+    
+}
+/* .reviewbox1,.reviewbox2,.reviewbox3{
+    width: 50%;
+    text-align: center;;
+  } */
+  .reviewContainer img{
+    width: 200px;
+    border-radius: 50%;
+  }
+  .reviewContainer img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+
+  }
+.reviewContainer h3{
+  color: white;
+}
+@media(max-width :1000px)   {
+  .reviewContainer{
+    flex-wrap: wrap;
+      
+  }
+ 
+ }

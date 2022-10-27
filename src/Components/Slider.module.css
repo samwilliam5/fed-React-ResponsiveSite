@@ -1,0 +1,45 @@
+#slider{
+    background-image: url(/public/image/banner-bg.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 50vh;
+    padding-bottom: 20px;
+    
+}
+.sliderContainer{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.sliderContainer p{
+    padding: 20px 0;
+    color: #666;
+}
+.sliderContainer h1{
+    color: #130f40
+}
+.sliderBtn button{
+    padding: 10px 30px;
+    border: solid 2px #130f40;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 17px;
+    background-color: #365899;
+    
+}
+.sliderBtn button:hover{
+  transition: 1s;
+  background-color: #ff7800;
+}
+@media(max-width :1000px)   {
+    #slider{
+        background-size: auto;
+        
+    }
+    .sliderContainer {
+        width: 100%;
+    }
+
+   }

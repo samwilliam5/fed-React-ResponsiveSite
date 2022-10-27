@@ -1,0 +1,11 @@
+#bottom{
+    width: 100%;
+    color: #fff;
+    background-color: #212d37;
+    padding-bottom: 20px;
+}
+.bottomContainer {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}

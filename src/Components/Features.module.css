@@ -1,0 +1,52 @@
+
+.featurescontainer{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 3em;
+}
+
+.featurescontainer  p{
+ color: #666;
+ padding: 25px 0;
+}
+ h1{
+    color: #fff;
+}
+.featurescontainer  h3{
+    color: #fff;
+}
+.featurescontainer button{
+    color: #fff;
+    padding: 10px 30px;
+    border: solid 2px #130f40;
+    background-color: #365899;
+    border-radius: 25px;
+
+}
+.featuresBox2{
+    padding-top: 30px;
+}
+.featuresBox3{
+    padding-top: 12px;
+}
+.featurescontainer button:hover{
+    background-color: #ff7800;
+    transition: 1s;
+}
+.featurescontainer img{
+    width: 200px;
+}
+   
+@media(max-width :1000px)   {
+    .featurescontainer{
+        flex-wrap: wrap;
+    }
+   
+   }
+.featurescontainer  img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
